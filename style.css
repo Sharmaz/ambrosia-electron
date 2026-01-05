@@ -1,0 +1,48 @@
+/* Custom styles for reveal.js presentation */
+
+:root {
+  --accent-color: #FF9811;
+}
+
+/* Mermaid diagram styling */
+.reveal .mermaid {
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .mermaid svg {
+  max-height: 500px;
+  max-width: 100%;
+}
+
+/* Code block enhancements */
+.reveal pre code {
+  max-height: 500px;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* Slide number styling */
+.reveal .slide-number {
+  color: var(--accent-color);
+}
+
+/* Custom accent for links */
+.reveal a {
+  color: var(--accent-color);
+}
+
+.reveal a:hover {
+  color: #ffb347;
+}
+
+/* Progress bar */
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.reveal .progress span {
+  background: var(--accent-color);
+}
