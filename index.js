@@ -6,7 +6,7 @@ import Zoom from 'reveal.js/plugin/zoom/zoom.esm.js';
 // Import reveal.js styles
 import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/black.css';
-import 'reveal.js/plugin/highlight/monokai.css';
+import './dracula.css';
 
 // Import Mermaid for diagrams
 import mermaid from 'mermaid';

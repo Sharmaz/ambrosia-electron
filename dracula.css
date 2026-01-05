@@ -1,0 +1,92 @@
+/* Dracula Theme for Highlight.js */
+.reveal pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+.reveal code.hljs {
+  padding: 3px 5px;
+}
+
+.reveal .hljs {
+  color: #f8f8f2;
+  background: #282a36;
+}
+
+.reveal .hljs-keyword,
+.reveal .hljs-selector-tag,
+.reveal .hljs-literal,
+.reveal .hljs-section,
+.reveal .hljs-link {
+  color: #ff79c6;
+}
+
+.reveal .hljs-function .hljs-keyword {
+  color: #ff79c6;
+}
+
+.reveal .hljs-subst {
+  color: #f8f8f2;
+}
+
+.reveal .hljs-string,
+.reveal .hljs-title,
+.reveal .hljs-name,
+.reveal .hljs-type,
+.reveal .hljs-attribute,
+.reveal .hljs-symbol,
+.reveal .hljs-bullet,
+.reveal .hljs-addition,
+.reveal .hljs-variable,
+.reveal .hljs-template-tag,
+.reveal .hljs-template-variable {
+  color: #f1fa8c;
+}
+
+.reveal .hljs-comment,
+.reveal .hljs-quote,
+.reveal .hljs-deletion,
+.reveal .hljs-meta {
+  color: #6272a4;
+}
+
+.reveal .hljs-keyword,
+.reveal .hljs-selector-tag,
+.reveal .hljs-literal,
+.reveal .hljs-title,
+.reveal .hljs-section,
+.reveal .hljs-doctag,
+.reveal .hljs-type,
+.reveal .hljs-name,
+.reveal .hljs-strong {
+  font-weight: bold;
+}
+
+.reveal .hljs-emphasis {
+  font-style: italic;
+}
+
+.reveal .hljs-tag {
+  color: #ff79c6;
+}
+
+.reveal .hljs-attr {
+  color: #50fa7b;
+}
+
+.reveal .hljs-number,
+.reveal .hljs-builtin-name,
+.reveal .hljs-built_in,
+.reveal .hljs-class .hljs-title {
+  color: #bd93f9;
+}
+
+.reveal .hljs-regexp {
+  color: #f1fa8c;
+}
+
+.reveal .hljs-selector-id,
+.reveal .hljs-selector-class {
+  color: #50fa7b;
+}
