@@ -7,6 +7,10 @@ export default defineConfig({
       ignored: ['!**/presentation.md'],
     },
   },
+  build: {
+    // Increase chunk size warning limit for reveal.js and mermaid
+    chunkSizeWarningLimit: 2000,
+  },
   // Force full page reload for .md files
   plugins: [
     {
