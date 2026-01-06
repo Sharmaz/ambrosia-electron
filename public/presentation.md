@@ -44,7 +44,7 @@ Powered by Electron
 
 ---
 
-## Servicios y Utilidades
+## Servicios y Utilidades ↓
 ---
 
 
@@ -145,9 +145,9 @@ try {
 
 ---
 
-### `ServiceManager`
+### `ServiceManager` ↓
 ---
-Sistema de Eventos (EventEmitter) ↓
+Sistema de Eventos (EventEmitter)
 
 ```jsx
 // El ServiceManager emite eventos que main.js escucha:
@@ -258,9 +258,9 @@ async start(port, config) {
 
 ---
 
-### `PhoenixdService` Lightning Node
+### `PhoenixdService` Lightning Node ↓
 ---
-Proceso de Detención ↓
+Proceso de Detención
 
 ```jsx
 async stop() {
@@ -349,9 +349,9 @@ async start(port, config) {
 
 ---
 
-### `BackendService` API Server
+### `BackendService` API Server ↓
 ---
-Diferencia Clave con Phoenixd ↓
+Diferencia Clave con Phoenixd
 
 BackendService usa el endpoint `/api/health` agregado específicamente para Electron:
 
@@ -430,9 +430,9 @@ async start(port) {
 
 ---
 
-### `NextJsService` Frontend
+### `NextJsService` Frontend ↓
 ---
-Standalone Build ↓
+Standalone Build
 
 Next.js genera una carpeta .next/standalone/ que contiene:
 
