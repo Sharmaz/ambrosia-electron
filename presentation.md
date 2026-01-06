@@ -4,6 +4,36 @@ Powered by Electron
 
 ---
 
+## Introducción
+
+<img src="./assets/img/macos-installer.png" width="500">
+
+---
+
+## Introducción
+
+<img src="./assets/img/linux-running.png" width="500">
+
+---
+
+## Introducción
+
+<img src="./assets/img/windows-installer.png" width="500">
+
+---
+
+## Introducción
+
+<img src="./assets/img/windows-installed.png" width="500">
+
+---
+
+## Introducción
+
+<img src="./assets/img/windows-running.png" width="800">
+
+---
+
 ### 🏗️ Arquitectura General
 ---
 ##### La aplicación Electron funciona como un paquete all-in-one que gestiona tres servicios:
@@ -327,6 +357,7 @@ BackendService usa el endpoint `/api/health` agregado específicamente para Elec
 
 ```kotlin
 // server/app/src/main/kotlin/pos/ambrosia/api/Health.kt
+// Este endpoint NO requiere autenticación, lo que facilita el health check.
 fun Route.healthRoutes() {
 	route("/health") {
 		get {
@@ -340,7 +371,7 @@ fun Route.healthRoutes() {
 	}
 }
 ```
-Este endpoint NO requiere autenticación, lo que facilita el health check.
+
 
 --
 
@@ -411,9 +442,6 @@ Next.js genera una carpeta .next/standalone/ que contiene:
 ├── node_modules/      ← Solo dependencias necesarias
 └── .next/             ← Build optimizado
 ```
-
-Ventajas:
-
 - No requiere next CLI
 - Solo necesita Node.js runtime
 - Mucho más ligero (solo deps necesarias)
